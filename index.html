@@ -14,12 +14,22 @@
 </head>
 
 <body>
-
+    <div id="progress-bar"></div>
     <!-- ================= NAVBAR ================= -->
 
     <nav class="navbar">
+        <div class="logo-container">
 
-        <h2 class="logo">School MUN 2026</h2>
+    <img src="images/logo.png"
+         alt="Logo"
+         class="logo-image">
+
+    <h2 class="logo">
+        BIS MUN 2026
+    </h2>
+
+</div>
+        <!-- <h2 class="logo">School MUN 2026</h2> -->
 
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -36,15 +46,21 @@
 
     <section id="home" class="hero">
 
-        <h1>School Model United Nations 2026</h1>
-
+        <h1>MUN 2026</h1>
         <p>
             Debate • Diplomacy • Leadership
         </p>
 
-        <h3>12–13 August 2026</h3>
+        <h3>25–26 JULY 2026</h3>
+        <div id="countdown">
 
-        <a href="#" class="register-btn">
+    <span id="days">0</span> Days
+    <span id="hours">0</span> Hours
+    <span id="minutes">0</span> Minutes
+    <span id="seconds">0</span> Seconds
+</div>
+
+        <a href="https://forms.gle/Cs7j2KKE4jf7gBQM8" class="register-btn">
             Register Now
         </a>
 
@@ -136,7 +152,7 @@
             Click below to register for the conference.
         </p>
 
-        <a href="#" class="register-btn">
+        <a href="https://forms.gle/Cs7j2KKE4jf7gBQM8" class="register-btn">
             Register Here
         </a>
 
@@ -183,6 +199,12 @@
 
     <!-- JavaScript File -->
     <script src="script.js"></script>
+
+    <button id="topBtn">
+
+    ↑
+
+    </button>
 
 </body>
 
